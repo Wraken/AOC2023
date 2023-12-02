@@ -34,10 +34,8 @@ type game struct {
 	maxRed   int
 	maxBlue  int
 	maxGreen int
-	minRed   int
-	minBlue  int
-	minGreen int
-	power    int
+
+	power int
 }
 
 func parsGames(lines []string) []*game {
